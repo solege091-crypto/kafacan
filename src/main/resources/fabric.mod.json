@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "afkkafa",
+  "version": "${version}",
+  "name": "AFK Kafa",
+  "description": "AFK kontrolundeki kafa menulerinde dogru kafaya tiklar.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.example.afkkafa.AfkHeads"] },
+  "mixins": ["afkkafa.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
